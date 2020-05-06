@@ -16,6 +16,8 @@ import { SoftSkillsComponent } from './models/soft-skills/soft-skills.component'
 import { SocialComponent } from './models/social/social.component';
 import { HobbyComponent } from './models/hobby/hobby.component';
 import { InspirationComponent } from './models/inspiration/inspiration.component';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,8 @@ import { InspirationComponent } from './models/inspiration/inspiration.component
     AppRoutingModule,
     FlexLayoutModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
   ],
   providers: [],
   bootstrap: [AppComponent]

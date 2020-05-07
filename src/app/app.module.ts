@@ -18,6 +18,7 @@ import { HobbyComponent } from './models/hobby/hobby.component';
 import { InspirationComponent } from './models/inspiration/inspiration.component';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
+import { WelcomeComponent } from './models/welcome/welcome.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,8 @@ import { environment } from '../environments/environment';
     SoftSkillsComponent,
     SocialComponent,
     HobbyComponent,
-    InspirationComponent
+    InspirationComponent,
+    WelcomeComponent
   ],
   imports: [
 

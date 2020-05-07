@@ -1,5 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+.tool-bar-bgcolor {
+  background-color: #040d79;
+  height: 3vh !important;
+  box-shadow: 10 12px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.tool-bar-bgcolor-main {
+  background-color: #0c1bdf;
+  height: 5vh !important;
+}
+
+.style-initials {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-left: 10vw;
+    margin-right: 6vw;
+    padding-top: 10px;
+  }
+  .message-padding {
+    padding-left: 40px;
+  }
+  .pt-5{
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: 10px;
+  }
+  .message-padding {
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .message-padding {
+    padding-left: 20px;
+  }
+}
+
+.upper {
+  padding-top: 10px;
+}
+
+.upperDesign {
+  border-top: 10px solid rgb(34, 34, 224);
+}
+
+.lowerDesign {
+  border-bottom: 10px solid rgb(34, 34, 224);
+}
+
+p {
+  text-align: justify;
+}

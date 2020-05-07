@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bio.component.css']
 })
 export class BioComponent implements OnInit {
-
+  avatar   ="assets/avatar.PNG";
   constructor() { }
 
   ngOnInit(): void {

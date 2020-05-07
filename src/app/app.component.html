@@ -1,19 +1,18 @@
-<mat-toolbar class="tool-bar-bgcolor">
-
-</mat-toolbar>
+<mat-toolbar class="tool-bar-bgcolor"> </mat-toolbar>
 <mat-toolbar class="tool-bar-bgcolor-main">
   <span class="style-initials">
     <b> My Portfolio</b>
   </span>
 </mat-toolbar>
-<div class="margin:4px">
-  <div>
-    <h1>Note!!</h1>
-  </div>
-  <div>
-    <p>Design Under Construction</p>
+<div class="container">
+  <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap.gt-md="20px" fxFlayoutGapgt-.md="15" fxLayoutGam.ls-sm="12px">
+    <div fxFlex.gt-lg="50" fxFlex.gt-md="50" fxFlex.lt-sm="100" fxFlex.lt-md="100">
+      <app-welcome></app-welcome>
+    </div>
+    <div fxFlex.gt-lg="50" fxFlex.gt-md="50" fxFlex.lt-sm="100" fxFlex.lt-md="100">
+      <app-bio></app-bio>
+    </div>
   </div>
 </div>
-
 
 <router-outlet></router-outlet>

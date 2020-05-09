@@ -1,0 +1,16 @@
+p   {
+    font-weight: 400;
+}
+.img1 {
+    height:300px;
+    width:200px;
+}
+.style-work-title{
+  font-style: italic;
+  font-size: 20pt;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: auto;
+}
+

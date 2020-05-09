@@ -5,8 +5,8 @@ body {
   height: 100%;
 }
 body {
-  margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-repeat: no-repeat!important;
 }
 /* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
 .tool-bar-bgcolor {
@@ -31,7 +31,7 @@ body {
   .container {
     margin-left: 10vw;
     margin-right: 6vw;
-    padding-top: 10px;
+    padding-top: 30px;
   }
   .message-padding {
     padding-left: 40px;
@@ -39,16 +39,28 @@ body {
   .pt-5{
     padding-top: 100px;
   }
+  .bio-bg-show{
+    display:none;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
   .container {
-    margin-left: 2vw;
-    margin-right: 2vw;
-    padding-top: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 15px;
+
   }
   .message-padding {
     padding-left: 5px;
+  }
+  .img1{
+   display: none!important;
+  }
+  .bio-bg-show{
+    display: flex;
+    height: 30vh!important;
   }
 }
 
@@ -56,10 +68,15 @@ body {
   .container {
     margin-left: 4vw;
     margin-right: 4vw;
+    padding-top: 30px;
   }
   .message-padding {
     padding-left: 20px;
   }
+ .bio-bg-show{
+   display: none;
+ }
+
 }
 
 .upper {

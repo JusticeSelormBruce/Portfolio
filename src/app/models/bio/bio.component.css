@@ -1,5 +1,5 @@
-img{
-  width:150px;
-  border-radius: 150px;
-
+.biobg{
+  background-image: url("../../../assets/me.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

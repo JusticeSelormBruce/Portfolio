@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatCardModule} from '@angular/material/card'
+import {MatCardModule} from '@angular/material/card';
+import { MatStepperModule } from "@angular/material/stepper";
+import  {MatFormFieldModule} from '@angular/material/form-field';
 
 
 @NgModule({
@@ -10,11 +11,15 @@ import {MatCardModule} from '@angular/material/card'
   imports: [
     CommonModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatStepperModule,
+    MatFormFieldModule
   ],
   exports:[
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatStepperModule,
+    MatFormFieldModule
   ]
 })
 export class MaterialModule { }

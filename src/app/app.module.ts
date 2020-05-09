@@ -19,6 +19,9 @@ import { InspirationComponent } from './models/inspiration/inspiration.component
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { WelcomeComponent } from './models/welcome/welcome.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BannarComponent } from './bannar/bannar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +36,8 @@ import { WelcomeComponent } from './models/welcome/welcome.component';
     SocialComponent,
     HobbyComponent,
     InspirationComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    BannarComponent
   ],
   imports: [
 
@@ -42,6 +46,8 @@ import { WelcomeComponent } from './models/welcome/welcome.component';
     FlexLayoutModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FormsModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
   ],
   providers: [],

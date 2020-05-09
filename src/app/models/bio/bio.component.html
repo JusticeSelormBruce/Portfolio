@@ -1,21 +1,29 @@
-<div>
-  <mat-card class="lowerDesign">
-    <mat-card-title class="pt-5">
-    <h1>  Biography</h1>
-    </mat-card-title>
-    <mat-card-content>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-        dignissimos et totam facere, quidem deleniti alias quisquam odit
-        molestiae culpa itaque, minus dolor vel neque nemo? Corporis veniam ad
-        doloremque, ea alias dolor laboriosam nisi ab. Esse soluta recusandae
-        tempora consequuntur? Rem ratione quidem distinctio quae velit
-        molestiae, exercitationem veniam quod laboriosam, placeat corporis sequi
-        natus temporibus autem dolore. Omnis distinctio ad voluptates
-        dignissimos mollitia itaque obcaecati tempore laborum reiciendis
-        repellendus quod eos quaerat cumque culpa, repudiandae iusto inventore
-        esse!
-      </p>
-    </mat-card-content>
-  </mat-card>
-</div>
+<mat-card class="lowerDesign">
+  <mat-card-title>
+    <h1>Biography</h1>
+  </mat-card-title>
+  <mat-card-content>
+    <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="10px">
+           <div>
+            <img  mat-card-image [src]="biogb" class="bio-bg-show">
+           </div>
+      <div fxFlex.gt-sm="70" fxFlex.lt-sm="100">
+        <p class="padding-right:5px;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          dignissimos et totam facere, quidem deleniti alias quisquam odit
+          molestiae culpa itaque, minus dolor vel neque nemo? Corporis veniam ad
+          doloremque, ea alias dolor laboriosam nisi ab. Esse soluta recusandae
+          tempora consequuntur? Rem ratione quidem distinctio quae velit
+          molestiae, exercitationem veniam quod laboriosam, placeat corporis
+          sequi natus temporibus autem dolore. Omnis distinctio ad voluptates
+          dignissimos mollitia itaque obcaecati tempore laborum reiciendis
+          repellendus quod eos quaerat cumque culpa, repudiandae iusto inventore
+          esse!
+        </p>
+      </div>
+      <div fxFlex.gt-sm="30" fxFlex.lt-sm="100">
+        <img  mat-card-image [src]="biogb" fxHide.lt-sm="true">
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

@@ -4,7 +4,6 @@
   </h1>
   <hr />
 </div>
-
 <mat-card>
   <mat-card-content>
     <div align="center">
@@ -41,6 +40,7 @@
       <div fxFlex.gt-sm="10" fxFlex.lt-sm="100"></div>
     </div>
   </mat-card-content>
+
 
   <mat-card-content fxHide.gt-xs>
     <mat-vertical-stepper [linear]="isLinear" #stepper>
@@ -86,6 +86,8 @@
       </mat-step>
     </mat-vertical-stepper>
   </mat-card-content>
+
+
   <mat-card-content fxHide.xs="true">
     <mat-horizontal-stepper [linear]="isLinear" #stepper>
       <mat-step [stepControl]="firstFormGroup">
@@ -143,3 +145,4 @@
     </mat-horizontal-stepper>
   </mat-card-content>
 </mat-card>
+

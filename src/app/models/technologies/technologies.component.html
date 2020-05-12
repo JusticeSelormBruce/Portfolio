@@ -1,1 +1,46 @@
-<p>technologies works!</p>
+<mat-card >
+  <mat-card-content>
+    <div align="center">
+      <h1>Skills</h1>
+    </div>
+  </mat-card-content>
+  <mat-card-content>
+    <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="10px">
+
+
+
+
+      <div fxFlex.gt-sm="50" fxFlex.lt-sm="100">
+        <div fxLayout="row" fxLayoutAlign="center center" fxHide.lt-sm="true">
+          <img mat-card-image [src]="bg" class="style-work-image" />
+        </div>
+      </div>
+      <div fxFlex.gt-sm="50" fxFlex.lt-sm="100" style="padding-top:50px!important">
+
+        <mat-card-content>
+          <mat-vertical-stepper [linear]="isLinear" #stepper>
+            <mat-step [stepControl]="firstFormGroup">
+              <form [formGroup]="firstFormGroup">
+                <ng-template matStepLabel><h3>Technologies (Languages)</h3></ng-template>
+
+                <div>
+                sdcfdfhghk
+                </div>
+              </form>
+            </mat-step>
+            <mat-step [stepControl]="firstFormGroup">
+              <form [formGroup]="firstFormGroup">
+                <ng-template matStepLabel><h3>Soft Skills</h3></ng-template>
+
+                <div>
+            tdfgvkhghjg
+                </div>
+              </form>
+            </mat-step>
+          </mat-vertical-stepper>
+        </mat-card-content>
+      </div>
+
+    </div>
+  </mat-card-content>
+</mat-card>

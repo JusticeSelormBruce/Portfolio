@@ -7,7 +7,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./technologies.component.css'],
 })
 export class TechnologiesComponent implements OnInit {
-  bg = 'assets/languages.png';
+  bg = 'assets/skills.jpg';
   isLinear = false;
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;

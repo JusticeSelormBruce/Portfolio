@@ -1,4 +1,8 @@
 
+.small{
+  font-size: smaller;
+}
+
 .html{
   height:5px;width:98%;
   background-color: red;
@@ -96,5 +100,5 @@ th{
 }
 
 hr{
-  margin: 0.1rem;
+  margin: 0.05rem;
 }

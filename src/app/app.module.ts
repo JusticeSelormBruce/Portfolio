@@ -21,6 +21,8 @@ import { environment } from '../environments/environment';
 import { WelcomeComponent } from './models/welcome/welcome.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BannarComponent } from './bannar/bannar.component';
+import { SkillsComponent } from './models/skills/skills.component';
+import { ToolsComponent } from './models/tools/tools.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { BannarComponent } from './bannar/bannar.component';
     HobbyComponent,
     InspirationComponent,
     WelcomeComponent,
-    BannarComponent
+    BannarComponent,
+    SkillsComponent,
+    ToolsComponent
   ],
   imports: [
 

@@ -8,6 +8,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatTableModule} from '@angular/material/table';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [],
@@ -20,7 +21,8 @@ import {MatTableModule} from '@angular/material/table';
     MatExpansionModule,
     MatTreeModule,
     MatProgressBarModule,
-    MatTableModule
+    MatTableModule,
+    MatTabsModule
   ],
   exports:[
     MatToolbarModule,
@@ -30,7 +32,8 @@ import {MatTableModule} from '@angular/material/table';
     MatExpansionModule,
     MatTreeModule,
     MatProgressBarModule,
-    MatTableModule
+    MatTableModule,
+    MatTabsModule
   ]
 })
 export class MaterialModule { }

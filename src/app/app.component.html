@@ -19,7 +19,7 @@
         <app-bio></app-bio>
       </div>
     </div>
-    
+
       <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap.gt-md="20px" fxFlayoutGapgt-.md="15"
         fxLayoutGam.ls-sm="12px">
         <app-work></app-work>
@@ -28,10 +28,29 @@
         fxLayoutGam.ls-sm="12px">
         <app-projects></app-projects>
       </div>
+      <div align="center" style="padding-top: 20px;" fxHide.xs fxHide.sm="true">
+        <h1 class="heading" fxShow.xs fxHide.gt-xs style="font-size: 13pt;">
+          Skills
+        </h1>
+      </div>
 
+      <div align="center">
+        <h1>Skills</h1>
+      </div>
       <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap.gt-md="20px" fxFlayoutGapgt-.md="15"
         fxLayoutGam.ls-sm="12px">
-        <app-technologies></app-technologies>
+
+        <div fxFlex.gt-sm="5" fxFlex.lt-sm="100"></div>
+        <div fxFlex.gt-sm="40" fxFlex.lt-sm="100">
+          <div fxLayout="row" fxLayoutAlign="center center">
+            <img mat-card-image [src]="bg" />
+          </div>
+        </div>  <div fxFlex.gt-sm="5" fxFlex.lt-sm="100"></div>
+
+        <div fxFlex.gt-sm="50" fxFlex.lt-sm="100">
+          <app-skills></app-skills>
+          </div>
+
       </div>
     </div>
     <div fxFlex.gt-sm="5" fxFlex.lt-sm="0"></div>

@@ -5,6 +5,16 @@
 </div>
 
 <div class="row no-gutters">
+  <div class="col-lg-6 col-md-6 col-sm-12" fxShow.lt-sm="true" fxHide.gt-sm="true">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-0"></div>
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
+        <div fxFlexAlign.fxFlexAlign.gt-sm="center">
+          <img mat-card-image [src]="bg" class="style-work-image" />
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5 pt-md-5 pt-sm-0">
     <p class="message-padding pt-lg-5 pt-md-4 pt-sm-1 mx-3">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum
@@ -18,7 +28,7 @@
       deserunt placeat illo rem quas.
     </p>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12">
+  <div class="col-lg-6 col-md-6 col-sm-12" fxHide.lt-sm="true">
     <div class="row">
       <div class="col-lg-2 col-md-2 col-sm-0"></div>
       <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">

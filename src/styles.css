@@ -8,7 +8,6 @@ body {
 }
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-repeat: no-repeat!important;
 }
 /* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
 .tool-bar-bgcolor {
@@ -56,10 +55,7 @@ body {
     display: flex;
     height: 30vh!important;
   }
-  .mat-card{
-    /* border-style: none!important; */
-    border-bottom: 10px solid black;
-  }
+
   .style-work-image{
     width:100vw!important;
   }

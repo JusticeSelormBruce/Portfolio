@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
-import { BioComponent } from './models/bio/bio.component';
 import { EducationComponent } from './models/education/education.component';
 import { WorkComponent } from './models/work/work.component';
 import { ProjectsComponent } from './models/projects/projects.component';
@@ -27,7 +26,6 @@ import { ToolsComponent } from './models/tools/tools.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BioComponent,
     EducationComponent,
     WorkComponent,
     ProjectsComponent,

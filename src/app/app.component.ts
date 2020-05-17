@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  bg = 'assets/skills.jpg';
+
+  avatar   ="assets/avatar.PNG";
   title = 'about';
 }

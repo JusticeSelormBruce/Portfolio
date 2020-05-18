@@ -59,7 +59,9 @@ body {
   .style-work-image{
     width:100vw!important;
   }
-
+  .hide{
+    display: none!important;
+  }
 }
 
 @media only screen and (min-width: 600px) {

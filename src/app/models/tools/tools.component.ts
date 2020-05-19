@@ -22,7 +22,8 @@ export class ToolsComponent implements OnInit {
     { icon: this.toolsicon, name: "PHP Storm" },
     { icon: this.toolsicon, name: "Netbeans" },
     { icon: this.toolsicon, name: "Eclipse" },
-    { icon: this.toolsicon, name: "Version Control (git)" }
+    { icon: this.toolsicon, name: "Version Control (git)" },
+    { icon: this.toolsicon, name: "Project Management Using Microsft Azure (SCRUM))" }
   ];
 }
 

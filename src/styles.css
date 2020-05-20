@@ -40,6 +40,9 @@ body {
   .bio-bg-show{
     display:none;
   }
+  .h{
+   height: 50vh;
+  }
 
 }
 
@@ -62,6 +65,10 @@ body {
   .hide{
     display: none!important;
   }
+  .h{
+    height: auto;
+   }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -71,6 +78,9 @@ body {
   }
  .bio-bg-show{
    display: none;
+ }
+ .h{
+  height: 50vh;
  }
 
 }

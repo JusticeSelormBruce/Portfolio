@@ -1,12 +1,31 @@
-<mat-toolbar class="tool-bar-bgcolor"> </mat-toolbar>
-<mat-toolbar class="tool-bar-bgcolor-main">
+<div class="jumbotron shadow-sm h pt-4">
   <div class="container">
-    <span class="style-initials">
-     Justice Selorm Bruce
-    </span>
+    <span><h2>Justice Selorm Bruce</h2></span>
+    <span fxFlex></span>
+    <div fxHide.gt-sm="true" fxShow.sm="true" fxShow.xs="true">
+      <mat-menu #appMenu="matMenu">
+        <a href="#home" mat-menu-item>Home</a>
+        <a href="#services" mat-menu-item>Expirience</a>
+        <a href="#Projects" mat-menu-item>Projects</a>
+        <a href="#team" mat-menu-item>Skills</a>
+        <a href="" mat-menu-item>Work Rpository</a>
+        <a href="#Contacts" mat-menu-item>Others</a>
+      </mat-menu>
+
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon>dehaze</mat-icon>
+      </button>
+    </div>
+
+    <div fxLayout="row" fxLayoutGap="35px" fxHide.xs="true" fxHide.sm="true">
+      <a routerLink="">Home</a>
+      <a routerLink="services">Expirience</a>
+      <a routerLink="projects">Projects</a>
+      <a routerLink="team">Skills</a>
+      <a routerLink="news">Work Rpository</a>
+      <a routerLink="contactus">Others</a>
+    </div>
   </div>
-</mat-toolbar>
-<div class="jumbotron shadow-sm">
   <div fxLayout="row" fxLayoutGap="30px" fxLayoutAlign="center center">
     <img mat-card-image [src]="avatar" />
     <h1 style="color: black !important;">Hello there!</h1>
@@ -42,11 +61,15 @@
   </div>
   <div class="row">
     <app-repository></app-repository>
-       </div>
-  <div class="row">
-<app-articles></app-articles>
   </div>
+  <div class="row">
+    <app-articles></app-articles>
+  </div>
+</div>
 
+<div class="bg-danger">
+  <div class="jumbotron h py-0 bg-danger"></div>
+  <div class="jumbotron h py-0 bg-dark"></div>
 </div>
 
 <router-outlet></router-outlet>

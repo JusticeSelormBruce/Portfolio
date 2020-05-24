@@ -4,11 +4,11 @@
     <span fxFlex></span>
     <div fxHide.gt-sm="true" fxShow.sm="true" fxShow.xs="true">
       <mat-menu #appMenu="matMenu">
-        <a href="#home" mat-menu-item>Home</a>
-        <a href="#services" mat-menu-item>Expirience</a>
+        <a href="" mat-menu-item>Home</a>
+        <a href="#expirience" mat-menu-item>Expirience</a>
         <a href="#Projects" mat-menu-item>Projects</a>
-        <a href="#team" mat-menu-item>Skills</a>
-        <a href="" mat-menu-item>Work Rpository</a>
+        <a href="#skills" mat-menu-item>Skills</a>
+        <a href="#reporsitory" mat-menu-item>Work Rpository</a>
         <a href="#Contacts" mat-menu-item>Others</a>
       </mat-menu>
 
@@ -18,12 +18,12 @@
     </div>
 
     <div fxLayout="row" fxLayoutGap="35px" fxHide.xs="true" fxHide.sm="true">
-      <a routerLink="">Home</a>
-      <a routerLink="services">Expirience</a>
-      <a routerLink="projects">Projects</a>
-      <a routerLink="team">Skills</a>
-      <a routerLink="news">Work Rpository</a>
-      <a routerLink="contactus">Others</a>
+      <a href="">Home</a>
+      <a href="#expirience">Expirience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#reporsitory">Work Rpository</a>
+      <a href="#contactus">Others</a>
     </div>
   </div>
   <div fxLayout="row" fxLayoutGap="30px" fxLayoutAlign="center center">
@@ -49,21 +49,21 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row" id="expirience">
     <app-work></app-work>
   </div>
 
-  <div class="row">
+  <div class="row" id="projects">
     <app-projects></app-projects>
   </div>
-  <div class="row pb-5">
+  <div class="row pb-5" id="skills">
     <app-skills></app-skills>
   </div>
 
 </div>
 
 
-  <div class="jumbotron h py-0 bg-dark">
+  <div class="jumbotron h py-0 bg-dark" id="reporsitory">
 
   <div fxLayout="row" fxLayoutAlign="center center" class="pb-lg-5 pb-md-5 pb-sm-0">
     <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">

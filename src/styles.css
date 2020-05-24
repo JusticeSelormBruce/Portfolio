@@ -29,60 +29,65 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
-
   .message-padding {
     padding-left: 40px;
   }
-  .pt-5{
+  .pt-5 {
     padding-top: 100px;
   }
-  .bio-bg-show{
-    display:none;
+  .bio-bg-show {
+    display: none;
   }
-  .h{
-   height: 50vh;
+  .h {
+    height: 50vh;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
+  body,
+  html {
+    font-size: smaller !important;
+  }
+  h1,
+  h2 {
+    font-size: small !important;
+  }
 
   .message-padding {
     padding-left: 5px;
   }
-  .img1{
-   display: none!important;
+  .img1 {
+    display: none !important;
   }
-  .bio-bg-show{
+  .bio-bg-show {
     display: flex;
-    height: 30vh!important;
+    height: 30vh !important;
   }
 
-  .style-work-image{
-    width:100vw!important;
+  .style-work-image {
+    width: 100vw !important;
   }
-  .hide{
-    display: none!important;
+  .hide {
+    display: none !important;
   }
-  .h{
+  .h {
     height: auto;
-   }
-
+  }
+  .red{
+    color: red!important;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-
   .message-padding {
     padding-left: 20px;
   }
- .bio-bg-show{
-   display: none;
- }
- .h{
-  height: 50vh;
- }
-
+  .bio-bg-show {
+    display: none;
+  }
+  .h {
+    height: 50vh;
+  }
 }
 
 .upper {
@@ -101,7 +106,6 @@ p {
   text-align: justify;
 }
 
-h1{
+h1 {
   color: #0c1bdf;
 }
-

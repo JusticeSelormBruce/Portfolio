@@ -1,4 +1,4 @@
-<div class="jumbotron shadow-sm h pt-4">
+<div class="jumbotron shadow-sm h pt-3">
   <div class="container">
     <span><h2>Justice Selorm Bruce</h2></span>
     <span fxFlex></span>
@@ -31,7 +31,7 @@
     <h1 style="color: black !important;">Hello there!</h1>
   </div>
 
-  <div fxLayout="row" fxLayoutAlign="center center">
+  <div fxLayout="row" fxLayoutAlign="center center" class="pb-lg-5 pb-md-5 pb-sm-0">
     <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos est
@@ -59,17 +59,19 @@
   <div class="row pb-5">
     <app-skills></app-skills>
   </div>
-  <div class="row">
-    <app-repository></app-repository>
-  </div>
-  <div class="row">
-    <app-articles></app-articles>
-  </div>
+
 </div>
 
-<div class="bg-danger">
-  <div class="jumbotron h py-0 bg-danger"></div>
-  <div class="jumbotron h py-0 bg-dark"></div>
-</div>
+
+  <div class="jumbotron h py-0 bg-dark">
+
+  <div fxLayout="row" fxLayoutAlign="center center" class="pb-lg-5 pb-md-5 pb-sm-0">
+    <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
+      <app-repository></app-repository>
+    </div>
+  </div>
+
+  </div>
+
 
 <router-outlet></router-outlet>

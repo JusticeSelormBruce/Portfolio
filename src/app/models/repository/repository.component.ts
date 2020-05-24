@@ -12,8 +12,9 @@ export class RepositoryComponent implements OnInit {
   isLinear = false;
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
-  bg = "assets/biobg1.png";
+  bg = "assets/repobg.png";
   gitHubLink="https://github.com/JusticeSelormBruce";
+  github_icon="assets/github.png";
   constructor(private _formBuilder: FormBuilder) { }
 
   ngOnInit() {

@@ -23,6 +23,7 @@ import { BannarComponent } from './bannar/bannar.component';
 import { SkillsComponent } from './models/skills/skills.component';
 import { ToolsComponent } from './models/tools/tools.component';
 import { RepositoryComponent } from './models/repository/repository.component';
+import { ContactComponent } from './models/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { RepositoryComponent } from './models/repository/repository.component';
     BannarComponent,
     SkillsComponent,
     ToolsComponent,
-    RepositoryComponent
+    RepositoryComponent,
+    ContactComponent
   ],
   imports: [
 

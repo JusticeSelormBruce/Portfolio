@@ -39,6 +39,7 @@ body {
   .h {
     height: 50vh;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -71,7 +72,15 @@ body {
   .h {
     height: auto;
   }
-  
+  ng-template{
+    font-size: small!important;
+  }
+  .icon{
+    width: 20px!important;
+    height: 20px!important;
+  }
+
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -82,8 +91,9 @@ body {
     display: none;
   }
   .h {
-    height: 50vh;
+    height: 53vh;
   }
+
 }
 
 .upper {

@@ -1,12 +1,14 @@
 <div class="jumbotron shadow-sm h pt-3">
   <div class="container">
-    <span><h2>Justice Selorm Bruce</h2></span>
+    <span>
+      <h2>Justice Selorm Bruce</h2>
+    </span>
     <span fxFlex></span>
     <div fxHide.gt-sm="true" fxShow.sm="true" fxShow.xs="true">
       <mat-menu #appMenu="matMenu">
         <a href="" mat-menu-item>Home</a>
         <a href="#expirience" mat-menu-item>Expirience</a>
-        <a href="#Projects" mat-menu-item>Projects</a>
+        <a href="#projects" mat-menu-item>Projects</a>
         <a href="#skills" mat-menu-item>Skills</a>
         <a href="#reporsitory" mat-menu-item>Work Rpository</a>
         <a href="#Contacts" mat-menu-item>Others</a>
@@ -31,7 +33,7 @@
     <h1 style="color: black !important;">Hello there!</h1>
   </div>
 
-  <div fxLayout="row" fxLayoutAlign="center center" class="pb-lg-5 pb-md-5 pb-sm-0">
+  <div fxLayout="row" fxLayoutAlign="center center">
     <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos est
@@ -41,8 +43,6 @@
         quo quisquam delectus quam vitae laudantium fugit sit, eveniet
         inventore, possimus facere deleniti iure non omnis similique. Sed et
         autem quas quaerat blanditiis optio, omnis sint. Esse necessitatibus
-        beatae voluptatibus. Assumenda necessitatibus voluptatibus illo vitae
-        consequuntur corporis ad commodi consequatur?
       </p>
     </div>
   </div>
@@ -59,19 +59,38 @@
   <div class="row pb-5" id="skills">
     <app-skills></app-skills>
   </div>
-
 </div>
-
-
-  <div class="jumbotron h py-0 bg-dark" id="reporsitory">
-
-  <div fxLayout="row" fxLayoutAlign="center center" class="pb-lg-5 pb-md-5 pb-sm-0">
-    <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
-      <app-repository></app-repository>
+<div class="bg-dark">
+  <div class="jumbotron h bg-dark py-2" id="reporsitory">
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
+        <app-repository></app-repository>
+      </div>
     </div>
   </div>
 
+  <div class="jumbotron py-0" id="reporsitory" style="background-color: black !important;">
+    <div class="container">
+      <div class="row text-light pt-lg-5 pt-md=5 pt-sm-1">
+        <div class="col-lg-6 col-md-6 col-sm-12 pb-5">
+          <app-social></app-social>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="mx-auto">
+              <span class="text-light pb-2 text-uppercase">Contact me!</span>
+            </div>
+          </div>
+          <div class="row">
+            <span class="mx-auto">
+              <app-contact></app-contact>
+            </span>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
   </div>
-
-
+</div>
 <router-outlet></router-outlet>
